@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { gql } from 'graphql-request';
-import { endpoint, token } from '../../graphql';
+import { endpoint, token } from '../../graphql/index';
 
 export const getRepo = createAsyncThunk(
   'repositories/repository',
