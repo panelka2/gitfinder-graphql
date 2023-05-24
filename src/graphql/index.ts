@@ -1,2 +1,2 @@
-export const token = "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"
+export const token = process.env.API_KEY
 export const endpoint = 'https://api.github.com/graphql'
