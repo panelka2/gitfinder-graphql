@@ -1,0 +1,68 @@
+.block_all_page {
+    display: flex;
+    justify-content: center;
+}
+.block_repo_description { 
+    background-color: white;  
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px #115375;
+    margin-bottom: 20px;
+    max-width: 700px;
+    min-width: 350px;
+} 
+
+.block_repo_description h2 {
+    word-wrap: break-word
+}
+.main_info_owner {
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+}
+.link {
+    text-decoration: none;
+    color:darkblue
+}
+.link:hover {
+    text-decoration: underline;
+}
+.link:visited {
+    text-decoration: none;
+  } 
+.other_info_owner {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.image {
+    width: 200px;
+    border-radius: 100px;
+}
+.bold {
+    font-weight: bold;
+}
+.message {
+    background-color: white;
+    border:1px solid black;
+    text-align: center;
+    background-color: white;  
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px #115375;
+}
+.error {
+    text-align: center;
+    color: red;
+}
+
+@media (max-width: 430px) {
+    .image {
+        width: 100px;
+        height: 100px;
+        margin-right: 15px;
+    }
+    .main_info_owner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+}

@@ -1,0 +1,27 @@
+.parent_cards {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.parent_message {
+    display: flex;
+    justify-content: center;
+}
+.message {
+    background-color: white;
+    border:1px solid black;
+    text-align: center;
+    background-color: white;  
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px #115375;
+    max-width: 300px;
+    padding: 10px;
+}
+.error {
+    color:red;
+}

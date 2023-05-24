@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Courier New';
+  src: url('./fonts/cour.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 10;
+  font-family: 'Courier New', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #6BFFF6;
+}
+input {
+  font-family: 'Courier New';
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
