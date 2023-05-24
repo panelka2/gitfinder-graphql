@@ -14,7 +14,7 @@ function App() {
           </Link>
         </h1>
         <a
-          href="https://github.com/panelka2/GitFinder"
+          href="https://github.com/panelka2/gitfinder-graphql"
           target="_blank"
           rel="noreferrer"
         >

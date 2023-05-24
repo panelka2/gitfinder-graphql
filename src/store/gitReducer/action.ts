@@ -6,7 +6,6 @@ export const fetchRepos = createAsyncThunk(
   'repositories/search',
   async (_text: string) => {
     const query = gql`
-    
       query FetchRepos($text: String!) {
         search(query: $text, type: REPOSITORY, first: 100) {
           nodes {
