@@ -50,8 +50,7 @@ export const Card = ({
           <p>Stars at the repository - {stargazers_count}</p>
         </div>
         <p className={styles.link}>
-          {" "}
-          <Link to={generatePath(REPO_PAGE_ROUTE, { owner: username, name })}>
+          <Link to={generatePath(REPO_PAGE_ROUTE, { owner: username, name: name })}>
             More...
           </Link>
         </p>
