@@ -33,7 +33,7 @@ export const Repo = () => {
     "en-US",
     options
   );
-    console.log(repo.languages.nodes)
+  
   return ( 
     <div className={styles.block_all_page}>
       {isLoading ? (

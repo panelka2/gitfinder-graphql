@@ -41,16 +41,12 @@ export const fetchRepos = createAsyncThunk(
       }),
     };
 
-
     const response = await fetch(endpoint, options);
     const data = await response.json();
-
     const repositories = data.data.search.nodes.sort(
       (a: { stargazers: { totalCount: number; }; }, b: { stargazers: { totalCount: number; }; }) => b.stargazers.totalCount - a.stargazers.totalCount
     );
 
-
-    console.log(repositories)
     return repositories;
   }
 )
