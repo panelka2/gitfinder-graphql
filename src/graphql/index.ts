@@ -1,2 +1,2 @@
-export const token = process.env.VITE_API_KEY
+export const token = process.env.NODE_ENV
 export const endpoint = 'https://api.github.com/graphql'
