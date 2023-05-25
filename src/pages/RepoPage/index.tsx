@@ -25,7 +25,7 @@ export const Repo = () => {
     error: getError(state),
   }));
   useEffect(() => {
-    dispatch(getRepo({ owner: owner as string, name: name as string }));
+    dispatch(getRepo({ owner, name }));
   }, [dispatch, owner, name]); 
 
   const newName = name ? (name.length > 15 ? name.slice(0, 15) + '...' : name) : '';

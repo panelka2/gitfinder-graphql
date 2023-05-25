@@ -4,7 +4,7 @@ import { endpoint, token } from '../../graphql/index';
 
 export const getRepo = createAsyncThunk(
   'repositories/repository',
-  async ({ owner, name }: { owner: string; name: string }) => {
+  async ({ owner, name }: { owner: string | undefined; name: string | undefined }) => {
     const query = gql`
     query FetchRepos($owner: String!, $name: String!) {
       repository(owner: $owner, name: $name) {
