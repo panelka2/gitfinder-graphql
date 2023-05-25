@@ -4,7 +4,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import { Repo } from "./pages/RepoPage";
 import { REPO_PAGE_ROUTE } from "./constants/routes";
 
-export const textToken1 = process.env.textToken1
+export const textToken1 = process.env.TEXT_TOKEN_1
 export const textToken2 = process.env.VITE_textToken1
 
 function App() {
