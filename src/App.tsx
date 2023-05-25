@@ -4,9 +4,6 @@ import { Link, Route, Routes } from "react-router-dom";
 import { Repo } from "./pages/RepoPage";
 import { REPO_PAGE_ROUTE } from "./constants/routes";
 
-export const textToken1 = process.env.NODE_ENV
-export const textToken2 = process.env.VITE_textToken1
-
 function App() {
   
   return (
@@ -23,9 +20,7 @@ function App() {
           rel="noreferrer"
         >
           <img src="/git_icon.svg" alt="Git Icon" className="icon" />
-        </a>
-        <p>textToken1 - {textToken1}</p>
-        <p>textToken2 - {textToken2}</p>
+        </a> 
       </span>
 
       <Routes>
